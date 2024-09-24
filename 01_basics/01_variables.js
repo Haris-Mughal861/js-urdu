@@ -1,13 +1,4 @@
-const accountId = 144553
-let accountEmail = "harismughal861@gmail.com"
-var accountPassword = "12345"
-accountCity = "Quetta"
+"use strict";
 
-//accountId = 2
-accountEmail = "fsjaijfjf"
-accountPassword = "886448"
-accountCity = "hsdidk"
-console.log(accountId);
-let accountState;
-
-console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+console.log(typeof undefined);
+console.log(3+3);
