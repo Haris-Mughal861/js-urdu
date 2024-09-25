@@ -14,7 +14,10 @@ console.log("1" + 2 + 5 );
 console.log(1 + "2");
 console.log(1+2+3+"4");
 
-
+console.log("5" > 3);
+console.log(undefined < 0);
+console.log(undefined > 0);
+console.log(undefined == 0);
 
 
 
