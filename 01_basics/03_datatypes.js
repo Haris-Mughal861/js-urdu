@@ -32,3 +32,25 @@ const myFuction = function(){
     
 }
 console.log(myFuction);
+
+
+
+
+//Stack(primitive) and Heap(non Primitive)
+
+let myName = "Haris" //Stack
+
+let anotherName = myName
+anotherName = "Mughal"
+console.log(anotherName);
+
+let userOne = {
+    email: "user@gmail.com",
+    password: "user@bl"
+}
+let userTwo = userOne
+userTwo.email = "Harismughal@123"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
