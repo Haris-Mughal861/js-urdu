@@ -35,34 +35,6 @@ const myn1 = myArr.slice(1,3)
 console.log(myn1);
 console.log("b", myArr);
 
-// refrence (Premitive)
-
-const score = 100
-const scoreValue = 100.9
-
-const isLoggedIn = false
-const outsideTemp = null
-let userEmail;
-
-const id = Symbol('123')
-const anotherId = Symbol('123')
-
-const bigNumber = 123456789123456789n
-
-console.log(id===anotherId);
-
-
-
-console.log("Harismughal");
-
-
-// Refrence (Non Premitives)
-
-const names = ["haris", "Mughal", "Shahid"]
-let myObj = {
-    name: "Haris",
-    age : 21,
-}
 
 const myFuction = function(){
     console.log("Hello World");
@@ -72,24 +44,27 @@ console.log(myFuction);
 
 
 
+const marvel_heros = ["haris", "Haris", "Haris"]
+const dc_heros = ["Haris", "Harismughal","Haris"]
 
-//Stack(primitive) and Heap(non Primitive)
+marvel_heros.push(dc_heros)
 
-let myName = "Haris" //Stack
+console.log(marvel_heros);
 
-let anotherName = myName
-anotherName = "Mughal"
-console.log(anotherName);
 
-let userOne = {
-    email: "user@gmail.com",
-    password: "user@bl"
-}
-let userTwo = userOne
-userTwo.email = "Harismughal@123"
+const allheros = marvel_heros.concat(dc_heros)
+console.log(allheros);
 
-console.log(userOne.email);
-console.log(userTwo.email);
+const all_new_heros = [...marvel_heros, ...dc_heros]
+
+
+console.log(all_new_heros);
+
+
+const another_array = [1,2,3,[1,2,3],[1,2,3,[2,3]]]
+
+const real_another_array = another_array
+
 
 
 
