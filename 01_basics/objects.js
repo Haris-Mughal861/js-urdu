@@ -14,3 +14,14 @@ console.log(JsUser["email"])
 console.log(JsUser.age);
 
 
+JsUser.email = "ajhfgisdfsk"
+//Object.freeze(JsUser)
+console.log(JsUser);
+
+JsUser.greeting = function(){
+    console.log('Hellow Js user, ${this.name}');
+}
+console.log(JsUser.greeting());
+
+
+
