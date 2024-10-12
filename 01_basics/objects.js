@@ -51,7 +51,32 @@ const obj1 = {1: "asd", 2: "b"}
 
 const obj2 = {3: "erty", 4: "bv"}
 
-const obj3 = Object.assign(obj1,obj2)
-console.log(obj3);
+const obj3 = {5: "tyui", 6: "yui" }
+
+//const obj4 = Object.assign(obj1,obj2,obj3)
+const obj4 = {...obj1, ...obj2, ...obj3}
+console.log(obj4);
+
+const users = [
+    {
+        id: 1,
+        email: "harismughal861@gmail.com"
+    },
+    {
+        name: "haris"
+    }
+]
+
+users[1].email
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+
+console.log(Object.values(tinderUser));
+
+console.log(Object.entries(tinderUser));
+
+console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
 
 
