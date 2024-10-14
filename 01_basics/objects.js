@@ -95,8 +95,8 @@ console.log(course);
 const navbar = ({company}) => {
 
 }
-navbar(): void
-navbar(company = "Haris")
+//navbar(): void
+//navbar(company = "Haris")
 
 
 //{
@@ -104,6 +104,8 @@ navbar(company = "Haris")
   //  coursename= "js",
   //  price = "free"
 //}
+
+
 
 
 
