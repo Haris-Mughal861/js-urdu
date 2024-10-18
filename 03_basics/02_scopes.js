@@ -53,3 +53,33 @@ const addTwo = function(num){
     return num + 2
 }
 addTwo(6)
+
+
+
+const name = "harismughal"
+const id = "1234"
+const face = "white"
+
+
+
+
+
+console.log(name);
+console.log(id);
+console.log(face);
+
+
+
+function addnumber(){
+    const num1 = 20
+    const num2 = 30
+    return num1 + num2
+
+}
+
+console.log(addnumber(5));
+
+
+
+
+
