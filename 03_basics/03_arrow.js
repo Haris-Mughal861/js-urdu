@@ -23,3 +23,14 @@ function code(){
 }
 
 code()
+
+
+
+function code(){
+
+    let username = "haris"
+    console.log(this.username);
+    
+}
+
+code()
