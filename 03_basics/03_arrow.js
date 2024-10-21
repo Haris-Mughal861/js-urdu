@@ -34,3 +34,20 @@ function code(){
 }
 
 code()
+
+
+
+function addition (){
+    let number1 = 24
+    let number2 = 67
+
+    console.log(number1*number2);
+    console.log(number1+number2);
+    console.log(number1-number2);
+    console.log(number2/number1);
+    
+  
+}
+
+addition()
+
