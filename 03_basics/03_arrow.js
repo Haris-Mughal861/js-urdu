@@ -69,3 +69,7 @@ function average(){
 
 average()
 
+function  multiplications(){
+
+}
+
